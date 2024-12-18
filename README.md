@@ -46,5 +46,11 @@ Don't forget to replace 'username' variables with real username of device.
 - Configure powerlevel10k
 
 ## Applications Installation
-- Arc Browser: ``
+- Google Chrome
+  - `sudo dnf install fedora-workstation-repositories`
+  - `sudo dnf config-manager setopt google-chrome.enabled=1`
+  - `sudo dnf install google-chrome-stable`
+- fnt (Font manager): `brew install fnt`
+  - `fnt install google-firamono`
+  - `fnt install google-firacode`
 - Visual Studio Code: `sudo dnf install code`
