@@ -6,6 +6,7 @@ Don't forget to replace 'username' variables with real username of device.
 ## i3 Configuration
 - Check config location via `i3 --more-version`
 - [i3 configuration file](https://github.com/mumudevx/i3-config)
+- restart i3: `$mod+Shift+r `
 
 ## Shell Installations & Configurations
 
