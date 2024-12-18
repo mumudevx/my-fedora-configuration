@@ -3,6 +3,10 @@ My personal configuration steps when install Fedora for first time.
 
 Don't forget to replace 'username' variables with real username of device.
 
+## i3 Configuration
+- Check config location via `i3 --more-version`
+- [i3 configuration file](https://github.com/mumudevx/i3-config)
+
 ## Shell Installations & Configurations
 
 ### Zsh
@@ -39,3 +43,7 @@ Don't forget to replace 'username' variables with real username of device.
 - Set ZSH_THEME to `powerlevel10k/powerlevel10k` on .zshrc file.
 - Restart zsh with `exec zsh`
 - Configure powerlevel10k
+
+## Applications Installation
+- Arc Browser: ``
+- Visual Studio Code: `sudo dnf install code`
