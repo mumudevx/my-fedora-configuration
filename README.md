@@ -14,6 +14,15 @@ Don't forget to replace 'username' variables with real username of device.
 
 ### Oh-my-zsh (https://ohmyz.sh/)
 - Install via curl: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+- Add autosuggestion to oh-my-zsh:
+  - `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+  - Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
+    ```
+    plugins=( 
+        # other plugins...
+        zsh-autosuggestions
+    )
+    ```
 
 ### Homebrew (https://brew.sh/)
 - Install via curl: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
@@ -24,3 +33,9 @@ Don't forget to replace 'username' variables with real username of device.
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
     ```
 - Install Homebrew's dependencies: `sudo dnf group install development-tools`
+
+### powerLevel10k Theme for zsh (https://github.com/romkatv/powerlevel10k)
+- clone with `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+- Set ZSH_THEME to `powerlevel10k/powerlevel10k` on .zshrc file.
+- Restart zsh with `exec zsh`
+- Configure powerlevel10k
